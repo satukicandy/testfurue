@@ -1,0 +1,206 @@
+/* スマートフォン・共通スタイル */
+body {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    background-repeat: repeat-x;
+    font: 12px/20px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Helvetica, Arial, Sans-Serif;
+    color: #333;
+}
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper {
+    width: 90%;
+    background-color: #fff;
+    padding: 5px 14px 45px 14px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.head_sitename {
+    width: 100%;
+    color: #767676;
+}
+.head_logo {
+    float: left;
+    padding-left: 11px;
+}
+.head_logo-link {
+    display: block;
+}
+.head_nav {
+    display: none;
+}
+.foot_navjump {
+    float: right;
+}
+.foot_navjump-link {
+    display: block;
+    text-decoration: none;
+}
+.top_img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main_wrap {
+    color: #333;
+}
+/* .main_top-wrap {
+    margin-bottom: 10px;
+} */
+.main_left-wrap {
+    width: 100%;
+}
+.main_right-wrap {
+    width: 100%;
+}
+.main_news-topic {
+    margin-bottom: 10px;
+    color: #7B7B7B;
+    border-bottom: 3px solid #7B7B7B;
+}
+.main_news-table {
+    table-layout: fixed;    /* table-layout: fixed; テーブルの幅を固定する */
+    width: 100%;
+}
+.main_news-table tr > td {
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.main_news-table tr > td:first-child {
+    width: 100px;
+}
+/* 各<tr>内の1番目の子要素だけwidth: 100pxにしている; */
+.international-news tr > td {
+    height: 10px;
+}
+.foot_wrap {
+    width: 90%;
+    background-color: #e8e8e8;
+    margin: 0 auto;
+}
+.foot_nav {
+    width: 100%;
+    background-color: #e8e8e8;
+}
+.foot_nav-list {
+    width: 90%;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+}
+.foot_nav-list > li {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid #b6b6b6;
+}
+.foot_nav-list > li:first-child {
+    padding-left: 0px;
+    border-left: none;
+}
+.foot_nav-list > li:last-child {
+    padding-right: 0px;
+}
+.foot_nav-link {
+    color: #909090;
+    text-decoration: none;
+}
+.foot_copyright {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+}
+/* タブレット */
+@media all and (min-width: 480px) {
+    .head_nav {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    .head_nav-list > li {
+        position: relative;
+        float: left;
+        width: 20%;
+    }
+    .head_nav-link {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #767676;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    .head_nav-dropdown-list {
+        position: absolute;
+        top: 40;
+        left: 0;
+        z-index: 1;
+        display: none;
+        width: 100%;
+        background-color: #fff;
+    }
+    .foot_navjump {
+        display: none;
+    }
+    .foot_nav {
+        display: none;
+    }
+}
+/* PC */
+@media all and (min-width: 768px) {
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .wrapper {
+        width: 950px;
+    }
+    .head_sitename {
+        margin-bottom: 10px;
+    }
+    .head_nav {
+        float: right;
+        width: 770px;
+    }
+    .main_left-wrap {
+        float: left;
+        width: 427px;
+    }
+    .main_right-wrap {
+        float: right;
+        width: 427px;
+    }
+    .foot_wrap {
+        width: 950px;
+    }
+    .foot_nav {
+        display: block;
+    }
+    .foot_nav-list {
+        width: 340px;
+    }
+    .foot_copyright {
+        width: 950px;
+    }
+}

@@ -1,0 +1,165 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #b38d57;
+    font: 12px/20px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Helvetica, Arial, Sans-Serif;
+    color: #fff;
+}
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+}
+
+strong {
+    font-weight: bold;
+    color: orange;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.keytext {
+    width: 975px;
+    height: 20px;
+    margin: 0 auto;
+    color: #602100;
+    text-align: right;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 975px;
+    margin: 0 auto;
+    padding: 30px 30px 0px;
+    background-image: url("../img/bgi-1.jpg");
+    background-repeat: repeat;
+    box-sizing: border-box;
+}
+header {
+    margin-bottom: 30px;
+}
+.site_logo {
+    float: left;
+    width: 140px;
+    height: 140px;
+    background-color: orange;
+}
+.site_logo-img {
+    display: block;
+    margin: 38px auto;
+}
+.head_nav {
+    float: right;
+}
+.head_nav-list > li {
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.head_nav-list > li:first-child {
+    margin-left: 0px;
+}
+.head_nav-link {
+    display: block;
+    width: 140px;
+    height: 140px;
+    border: 10px solid #fff;
+    font-weight: bold;
+    color: #333;
+    line-height: 120px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.head_nav-link:hover {
+    color: orange;
+    border-color: #cacaca;
+}
+.mainimg {
+    border: 15px solid orange;
+    margin: 0 auto 30px;
+    text-align: left;
+}
+.container {
+    padding-bottom: 30px;
+}
+.maincont {
+    float: right;
+    width: 670px;
+}
+.topicname {
+    height: 33px;
+    line-height: 28px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 5px solid #fff;
+    background-color: orange;
+    box-sizing: border-box;
+}
+.main_news-table {
+    table-layout: fixed;
+    width: 95%;
+    margin: 5px auto;
+}
+.main_news-table tr > td {
+    width: 100%;
+    height: 20px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.main_news-table tr > td:first-child {
+    width: 130px;
+}
+.topic_text > p {
+    width: 95%;
+    margin: 7px auto 13px;
+    font-size: 13px;
+    word-wrap: break-word;
+}
+.sidemenu {
+    float:left;
+    width: 220px;
+    margin-bottom: 30px;
+}
+.side_topic {
+    height: 33px;
+    line-height: 28px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    border-bottom: 5px solid orange;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.sidemenu_nav-list > li {
+    width: 220px;
+    height: 33px;
+    border-bottom: 1px dotted #fff;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+}
+.sidemenu_nav-link {
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+.sidemenu_nav-list > li:hover {
+    background-color: orange;
+}
+footer {
+    width: 975px;
+    margin: 0 auto;
+    padding: 15px 0 15px;
+    text-align: center;
+    background-color: orange;
+    box-sizing: border-box;
+}
