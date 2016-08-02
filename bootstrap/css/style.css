@@ -1,0 +1,36 @@
+.container {
+    padding-top: 20px;
+}
+.header {
+    margin-bottom: 10px;
+}
+.nav-justified {
+    border: 1px solid #d5d5d5;
+    border-bottom: 0;
+    border-radius: 5px;
+}
+.nav-justified > li >a {
+    padding: 15px 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #777;
+    border-bottom: 1px solid #d5d5d5;
+    background-color: #e5e5e5;
+}
+.nav-justified >li:not(:first-child) > a {
+    border-left: 1px solid #d5d5d5;
+}
+.jumbotron {
+    text-align: center;
+    background-color: #fff;
+}
+.contents {
+    margin-bottom: 50px;
+}
+.footer {
+    border-top: 1px solid #d5d5d5;
+}
+.copyright {
+    padding: 40px 0;
+    text-align: right;
+}
